@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "setup": "node setup.js"
   },
   "dependencies": {
     "@headlessui/react": "^2.2.0",
@@ -39,5 +40,8 @@
   ],
   "author": "",
   "license": "ISC",
-  "description": "Modern CRM application built with Next.js and Supabase"
+  "description": "Modern CRM application built with Next.js and Supabase",
+  "devDependencies": {
+    "dotenv": "^17.2.1"
+  }
 }
